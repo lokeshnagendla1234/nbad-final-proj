@@ -17,7 +17,7 @@ function Summery() {
 
   useEffect(() => {
     if(user){
-      const url = "http://localhost:8080/api/charts/bar-chart"
+      const url = "/api/charts/bar-chart"
 
       fetch(url, {
         method: 'GET',

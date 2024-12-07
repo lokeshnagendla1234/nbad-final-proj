@@ -10,7 +10,7 @@ function Login() {
   const navigate = useNavigate();
   const { login } = useUser();
 
-  const url = "http://localhost:8080/api/auth/login"
+  const url = "/api/auth/login"
 
   const handleSubmit = (e) => {
     e.preventDefault();

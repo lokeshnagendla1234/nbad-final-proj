@@ -18,7 +18,7 @@ function Report() {
   useEffect(() => {
    
     if(user){
-      const url = "http://localhost:8080/api/charts/pie-chart"
+      const url = "/api/charts/pie-chart"
 
       fetch(url, {
         method: 'GET',
